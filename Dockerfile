@@ -1,6 +1,9 @@
-FROM php:7.0-fpm
+FROM php:7.4-fpm
 
-RUN apk add --no-cache nginx supervisor wget
+RUN ["apt-get", "update"]
+RUN ["apt-get", "-y", "install", "nginx"]
+RUN ["apt-get", "-y", "install", "supervisor"]
+RUN ["apt-get", "-y", "install", "wget"]
 
 RUN mkdir -p /run/nginx
 
