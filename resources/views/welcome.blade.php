@@ -73,7 +73,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   Stanky!
+                   TEST SIGIT!
                 </div>
 
                 <div class="links">
