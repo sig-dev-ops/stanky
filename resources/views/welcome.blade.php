@@ -73,7 +73,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   TEST SIGIT!
+                   TEST CLOUD BUILD!
                 </div>
 
                 <div class="links">
